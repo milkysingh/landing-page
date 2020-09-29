@@ -1,0 +1,31 @@
+.card:focus {
+  outline: 0px;
+}
+.card_contain {
+  text-align: center;
+  background: #ffffff;
+
+  -webkit-box-shadow: 2px 2px 2px 2px #ccc;
+  -moz-box-shadow: 2px 2px 2px 2px #ccc;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.slick-dots li,
+.slick-dots li button {
+  width: 30px;
+}
+.slick-dots li button::before {
+  border: 3px solid #b7b5b5;
+  font-size: 0px;
+  line-height: 0px;
+  border-radius: 5px;
+  height: 0px;
+}
+.slick-dots li.slick-active,
+.slick-dots li.slick-active button {
+  width: 40px;
+}
+.slick-dots li.slick-active button::before {
+  border-color: #0066fd;
+  width: 30px;
+}
