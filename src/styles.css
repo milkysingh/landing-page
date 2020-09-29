@@ -1,0 +1,19 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0px;
+}
+.page_container {
+  background-color: #ffffff;
+}
+h2.subtitle {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+}
+section {
+  margin: 50px auto;
+}
+@media (max-width: 991px) {
+  .page_container {
+    margin: 0px 50px;
+  }
+}

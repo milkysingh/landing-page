@@ -1,0 +1,26 @@
+.header {
+  background-color: #2b3966;
+  width: 100%;
+  display: block;
+  color: #ffffff;
+}
+.head_box {
+  width: 100%;
+  display: inline-block;
+}
+.head_box .head_left {
+  float: left;
+  width: 50%;
+}
+.head_box .head_left h1 {
+  margin: 5px;
+}
+.head_box .head_right {
+  float: right;
+  width: 50%;
+  text-align: right;
+  padding-top: 15px;
+}
+.clearfix {
+  clear: both;
+}
